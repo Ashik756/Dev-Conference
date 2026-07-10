@@ -15,8 +15,7 @@ li {
     list-style: none;
 }
 
-main,
-footer {
+main{
     max-width: 1280px;
     margin: auto;
     padding: 0 24px;
@@ -283,4 +282,33 @@ footer {
 .pricing-card-team .pricing-btn:hover {
     background-color: #0D1B2A;
     color: white;
+}
+
+/* Footer */
+footer{
+    background-color: #0D1B2A;
+    margin-top: 24px;
+}
+.footer{
+    max-width: 1280px;
+    margin: auto;
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo img{
+    max-width:250px;
+}
+.footer-text a{
+    color: white;
+    font-size: 24px;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 18px 0;
+    font-size: 16px;
+    border-top: 1px solid #57575770;
 }
