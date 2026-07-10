@@ -10,16 +10,18 @@
 a{text-decoration: none;}
 li{list-style: none;}
 
-header,main,footer{
+main,footer{
     max-width: 1280px;
     margin: auto;
     padding: 0 24px;
 }
 
+/* navigation styling */
 .btn-primary{
     background-color: #1D4ED8;
     color: white;
     padding: 12px ;
+    border: none;
     border-radius: 10px;
     font: bold;
     font-size: 16px;
@@ -29,7 +31,9 @@ header,main,footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 12px 0;
+    padding: 12px 24px;
+    max-width: 1280px;
+    margin: auto;
 }
 
 .nav-links{
@@ -41,4 +45,30 @@ header,main,footer{
 
 .nav-links li a{
     color: #575757;
+}
+
+/* hero section styling */
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.685)), url("./assets/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    min-height: 80vh;
+    text-align: center;
+    padding: 24px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.hero-text p{
+    max-width: 1280px;
+    margin: auto;
+    padding: 32px 24px;
+    font-size: 22px;
+}
+
+.hero-text h1{
+    font-size: 80px;
 }
