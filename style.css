@@ -66,7 +66,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    display: none;
+    
 }
 
 .hero-text p {
@@ -91,7 +91,7 @@ footer {
 .meet {
     padding: 80px 0;
     text-align: center;
-    display: none;
+   
 
 }
 
@@ -146,3 +146,141 @@ footer {
     color: #575757;
 }
 
+/* Secure Your Spot Section Header */
+.sopt-text {
+    text-align: center;
+    margin-bottom: 48px;
+}
+
+.sopt-text h2 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #0D1B2A;
+    margin-bottom: 8px;
+}
+
+.sopt-text p {
+    font-size: 14px;
+    color: #575757;
+    margin: 0;
+}
+
+.spot-card {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.pricing-card {
+    width: 100%;
+    max-width: 360px;
+    border: 1px solid #eef1f6;
+    border-radius: 12px;
+    padding: 32px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.plan-name {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    color: #575757;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+
+.plan-price {
+    font-size: 42px;
+    font-weight: 800;
+    color: #0D1B2A;
+    margin: 0 0 4px 0;
+}
+
+.plan-meta {
+    font-size: 12px;
+    color: #575757;
+}
+
+.divider {
+    border: 0;
+    border-top: 1px solid #E5E7EB;
+    margin: 24px 0;
+}
+.features-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+    flex-grow: 1;
+}
+
+.features-list li {
+    font-size: 14px;
+    color: #575757;
+    margin-bottom: 14px;
+    position: relative;
+    padding-left: 20px;
+    line-height: 1.5;
+}
+
+.features-list li::before {
+    content: "•";
+    color: #1D4ED8;
+    font-weight: bold;
+    font-size: 18px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+
+.features-list li:last-child {
+    margin-bottom: 0;
+}
+.pricing-btn {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color: #1D4ED8;
+    border: 1px solid #1D4ED8;
+    border-radius: 6px;
+    padding: 12px;
+    transition: all 0.2s ease;
+}
+
+.pricing-btn:hover {
+    background-color: #1D4ED8;
+    color: white;
+}
+
+.pricing-card-pro {
+    background-color: #0D1B2A;
+    border-color: #0D1B2A;
+}
+
+.pricing-card-pro .plan-name { color: #93C5FD; }
+.pricing-card-pro .plan-price { color: white; }
+.pricing-card-pro .plan-meta { color: #ffffff85; }
+.pricing-card-pro .divider { border-top-color: #ffffff10; }
+.pricing-card-pro .features-list li { color: #ffffffbb; }
+
+.pricing-card-pro .pricing-btn {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+}
+.pricing-card-pro .pricing-btn:hover {
+    background-color: #1d4ed8;
+}
+
+.pricing-card-team .pricing-btn {
+    color: #0D1B2A;
+    border-color: #0D1B2A;
+}
+.pricing-card-team .pricing-btn:hover {
+    background-color: #0D1B2A;
+    color: white;
+}
