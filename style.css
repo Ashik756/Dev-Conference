@@ -28,7 +28,7 @@ main {
     padding: 12px;
     border: none;
     border-radius: 10px;
-    font: bold;
+    font-weight: bold;
     font-size: 16px;
 }
 
@@ -159,12 +159,11 @@ main {
 .sopt-text p {
     font-size: 14px;
     color: #575757;
-    margin: 0;
 }
 
 .spot-card {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     gap: 24px;
 }
 
@@ -179,7 +178,6 @@ main {
 }
 
 .plan-name {
-    display: block;
     font-size: 11px;
     font-weight: 700;
     color: #575757;
@@ -192,7 +190,7 @@ main {
     font-size: 42px;
     font-weight: 800;
     color: #0D1B2A;
-    margin: 0 0 4px 0;
+    margin: 2px 0 4px ;
 }
 
 .plan-meta {
@@ -210,7 +208,6 @@ main {
     list-style: none;
     padding: 0;
     margin: 0 0 32px 0;
-    flex-grow: 1;
 }
 
 .features-list li {
@@ -232,17 +229,13 @@ main {
     top: -2px;
 }
 
-.features-list li:last-child {
-    margin-bottom: 0;
-}
-
 .pricing-btn {
     display: block;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
     color: #1D4ED8;
-    border: 1px solid #1D4ED8;
+    border: 1px solid #1942b3;
     border-radius: 6px;
     padding: 12px;
     transition: all 0.2s ease;
@@ -352,10 +345,6 @@ main {
     font-size: 14px;
     color: #575757;
     line-height: 1.6;
-}
-
-.faq-answer p {
-    margin: 0;
 }
 
 /* Footer */
