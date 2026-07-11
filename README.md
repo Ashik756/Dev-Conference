@@ -51,9 +51,9 @@ Google Gemini was used only for the placeholder "Something Missing?" section, wh
 No build step required — just clone and open `index.html` in a browser:
 
 ```bash
-git clone <repo-url>
-cd <repo-folder>
-open index.html   # or double-click the file
+git clone https://github.com/Ashik756/Dev-Conference.git
+cd dev-conference
+open index.html or double-click the file
 ```
 
 ## 📄 License
