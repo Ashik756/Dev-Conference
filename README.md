@@ -2,9 +2,9 @@
 
 A responsive-ready landing page for a fictional developer conference, **DevConf 2026**, built with plain HTML5 and CSS3 (no JavaScript, no CSS frameworks).
 
-🔗 **Live Site:** https://ashik756.github.io/Dev-Conference/
+🔗 **Live Site:** https://ashik756.github.io/dev-conference/
 
-📦 **Repository:** https://github.com/Ashik756/Dev-Conference.git
+📦 **Repository:** https://github.com/Ashik756/dev-conference.git
 
 ---
 
@@ -52,7 +52,7 @@ Google Gemini was used only for the placeholder "Something Missing?" section, wh
 No build step required — just clone and open `index.html` in a browser:
 
 ```bash
-git clone https://github.com/Ashik756/Dev-Conference.git
+git clone https://github.com/Ashik756/dev-conference.git
 cd dev-conference
 open index.html or double-click the file
 ```
