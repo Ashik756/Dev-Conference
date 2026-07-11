@@ -15,7 +15,7 @@ li {
     list-style: none;
 }
 
-main{
+main {
     max-width: 1280px;
     margin: auto;
     padding: 0 24px;
@@ -65,7 +65,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+
 }
 
 .hero-text p {
@@ -90,8 +90,6 @@ main{
 .meet {
     padding: 80px 0;
     text-align: center;
-   
-
 }
 
 .meet h2 {
@@ -102,7 +100,7 @@ main{
 }
 
 .speaker-card {
-    max-width: 450px;
+    max-width:100%;
     border: 1px solid #eef1f6;
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
@@ -137,7 +135,7 @@ main{
 .speaker-name {
     font-size: 20px;
     font-weight: 700;
-    color: #111827;
+    color: #0D1B2A;
     margin: 6px 0;
 }
 
@@ -177,8 +175,6 @@ main{
     border-radius: 12px;
     padding: 32px 24px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
-    display: flex;
-    flex-direction: column;
     background-color: white;
 }
 
@@ -209,6 +205,7 @@ main{
     border-top: 1px solid #E5E7EB;
     margin: 24px 0;
 }
+
 .features-list {
     list-style: none;
     padding: 0;
@@ -238,6 +235,7 @@ main{
 .features-list li:last-child {
     margin-bottom: 0;
 }
+
 .pricing-btn {
     display: block;
     text-align: center;
@@ -260,17 +258,32 @@ main{
     border-color: #0D1B2A;
 }
 
-.pricing-card-pro .plan-name { color: #93C5FD; }
-.pricing-card-pro .plan-price { color: white; }
-.pricing-card-pro .plan-meta { color: #ffffff85; }
-.pricing-card-pro .divider { border-top-color: #ffffff10; }
-.pricing-card-pro .features-list li { color: #ffffffbb; }
+.pricing-card-pro .plan-name {
+    color: #93C5FD;
+}
+
+.pricing-card-pro .plan-price {
+    color: white;
+}
+
+.pricing-card-pro .plan-meta {
+    color: #ffffff85;
+}
+
+.pricing-card-pro .divider {
+    border-top-color: #ffffff10;
+}
+
+.pricing-card-pro .features-list li {
+    color: #ffffffbb;
+}
 
 .pricing-card-pro .pricing-btn {
     background-color: #2563eb;
     color: white;
     border: none;
 }
+
 .pricing-card-pro .pricing-btn:hover {
     background-color: #1d4ed8;
 }
@@ -279,17 +292,79 @@ main{
     color: #0D1B2A;
     border-color: #0D1B2A;
 }
+
 .pricing-card-team .pricing-btn:hover {
     background-color: #0D1B2A;
     color: white;
 }
 
+/* FAQ */
+
+.faq-section {
+    padding: 80px 0;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 48px;
+}
+
+.faq-item {
+    background-color: #ffffff;
+    border: 1px solid #eef1f6;
+    border-radius: 12px;
+    padding: 20px 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.02);
+}
+
+.faq-question {
+    font-size: 16px;
+    font-weight: 600;
+    color: #0D1B2A;
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-question::-webkit-details-marker {
+    display: none;
+}
+
+.faq-question::after {
+    content: "+";
+    font-size: 22px;
+    color: #2563eb;
+    font-weight: normal;
+}
+
+.faq-item[open] .faq-question::after {
+    content: "−";
+}
+
+.faq-answer {
+    margin-top: 12px;
+    font-size: 14px;
+    color: #575757;
+    line-height: 1.6;
+}
+
+.faq-answer p {
+    margin: 0;
+}
+
 /* Footer */
-footer{
+footer {
     background-color: #0D1B2A;
     margin-top: 24px;
 }
-.footer{
+
+.footer {
     max-width: 1280px;
     margin: auto;
     padding: 12px 24px;
@@ -297,15 +372,17 @@ footer{
     align-items: center;
     justify-content: space-between;
 }
-.footer-logo img{
-    max-width:250px;
+
+.footer-logo img {
+    max-width: 250px;
 }
-.footer-text a{
+
+.footer-text a {
     color: white;
     font-size: 24px;
 }
 
-footer p{
+footer p {
     color: white;
     text-align: center;
     padding: 18px 0;
