@@ -2,8 +2,9 @@
 
 A responsive-ready landing page for a fictional developer conference, **DevConf 2026**, built with plain HTML5 and CSS3 (no JavaScript, no CSS frameworks).
 
-🔗 **Live Site:** [Add your GitHub Pages link here]
-📦 **Repository:** [Add your repo link here]
+🔗 **Live Site:** https://ashik756.github.io/Dev-Conference/
+
+📦 **Repository:** https://github.com/Ashik756/Dev-Conference.git
 
 ---
 
